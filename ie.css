@@ -6,6 +6,11 @@ body {
 	margin-top: 5%;
 }
 
+#footer_again{
+ color:red;
+ background:white;
+}
+
 #content{
 	width: 1280px;
 	height: 800px;
