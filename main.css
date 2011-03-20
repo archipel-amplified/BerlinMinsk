@@ -1,0 +1,165 @@
+body {
+    background-color: white;
+}
+
+#content{
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	bottom: 5px;
+	left: 5px;
+	border: 2px solid black;
+}
+
+#rsidebar {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	background-color: grey;
+	width: 200px;
+	height: 100%;
+	opacity: 0.4;
+}
+
+#container {
+    border: 2px solid black;
+    bottom: 40px;
+    left: 0;
+    position: absolute;
+    right: 200px;
+    top: 0;
+}
+
+#map {
+    position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+}
+
+#footer {
+	position: absolute;
+	background-color: grey;
+	height: 40px;
+	left:0;
+	right: 0;
+	bottom:0;
+	margin: 0;
+	z-index: -2;
+	opacity: 0.4;
+}
+
+
+
+div.overlay {
+    background-color: #EEEEEE;
+    float: left;
+    height: 325px;
+    width: 250px;
+    z-index: 2;
+}
+
+#overlay_container{
+    border: 1px solid black;
+    display:none;
+    height: 650px;
+    margin: 100px 10%;
+    padding: 5px;
+    position: absolute;
+    width: 1000px;
+    z-index: 2;
+}
+
+#TL{
+
+}
+
+#CTL{
+
+}
+
+#CTR{
+
+}
+
+#TR{
+
+}
+
+#BL{
+
+}
+
+#CBL{
+
+}
+
+#CBR{
+
+}
+
+#BR{
+
+}
+
+/*css fuer karte*/
+.wml-overview-map-control {
+	border: 1px solid white !important;
+	
+}
+/*ende css fuer karte*/
+
+
+
+/*
+
+
+
+html {
+	padding:0;
+	width: 100%;
+	bottom: 44px;
+}
+
+
+
+
+#closePage{
+	background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    height: 35px;
+    width: 37px;
+	float:right;
+}
+
+#nextPage{
+	background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    height: 35px;
+    width: 37px;
+	float:right;
+}
+#backPage{
+	background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    height: 35px;
+    width: 37px;
+	float:right;
+}
+#footer {
+	position: absolute;
+	background-color: white;
+	height: 40px;
+	left:0;
+	right: 0;
+	bottom:0;
+	margin: 0;
+	z-index: 2;
+}
+*/
+
+
+
